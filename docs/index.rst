@@ -8,6 +8,8 @@ Read the Docs: Documentation Simplified
 by building, versioning, and hosting of your docs, automatically.
 Think of it as *Continuous Documentation*.
 
+Katarina
+
 Never out of sync |:arrows_counterclockwise:|
     Whenever you push code to your favorite version control system,
     whether that is Git, Mercurial, Bazaar, or Subversion,
