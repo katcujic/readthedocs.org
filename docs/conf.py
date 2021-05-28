@@ -36,7 +36,7 @@ extensions = [
     'sphinx_search.extension',
     'sphinxemoji.sphinxemoji',
     "sphinx_rtd_theme",
-    'myst_parser
+    'myst_parser'
 ]
 
 templates_path = ['_templates']
