@@ -54,4 +54,4 @@ This document provides tutorials/guides/manuals of setups and experiments for th
 
    field_tests/part107
    field_tests/checklist
-   field_tests/standard_issue_kit
+

@@ -10,5 +10,3 @@ Standard Issue Field Test Kit
     It is a keyboard/trackpad + usb-c powered monitor + usb-c dongle + batteries/power sources. 
     (More info to come on that later but see some preliminary pictures).
 
-.. image:: standard_issue_kit.jpeg
-    :width: 500
