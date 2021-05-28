@@ -35,12 +35,14 @@ extensions = [
     'hoverxref.extension',
     'sphinx_search.extension',
     'sphinxemoji.sphinxemoji',
+    "sphinx_rtd_theme",
+    'myst_parser
 ]
 
 templates_path = ['_templates']
 
 master_doc = 'index'
-project = 'Read the Docs'
+project = 'AirLab'
 copyright = '2010-{}, Read the Docs, Inc & contributors'.format(
     timezone.now().year
 )
@@ -80,9 +82,24 @@ html_static_path = ['_static']
 html_js_files = ['js/expand_tabs.js']
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_logo = 'img/logo.svg'
+html_css_files = [
+    'css/custom.css',
+]
 html_theme_options = {
+    'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
+    'analytics_anonymize_ip': False,
     'logo_only': True,
     'display_version': False,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'vcs_pageview_mode': '',
+    'style_nav_header_background': '#cc002b',
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
 }
 
 hoverxref_auto_ref = True
