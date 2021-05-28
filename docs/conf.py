@@ -35,8 +35,8 @@ extensions = [
     'hoverxref.extension',
     'sphinx_search.extension',
     'sphinxemoji.sphinxemoji',
-    "sphinx_rtd_theme",
-    'myst_parser'
+    "sphinx_rtd_theme"
+    # 'myst_parser'
 ]
 
 templates_path = ['_templates']
